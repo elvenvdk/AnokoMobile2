@@ -8,6 +8,7 @@ import LearnMore_4 from './components/LearnMore_4';
 import SignUp from './components/SignUp';
 import Profile from './components/Profile';
 import Discover from './components/Discover';
+import Events from './components/Events';
 
 class RouterComponent extends Component {
     render() {
@@ -17,7 +18,6 @@ class RouterComponent extends Component {
                     <Scene 
                         key="Landing" 
                         component={Landing} 
-                        
                     />
                     <Scene 
                         key="LearnMore1" 
@@ -74,6 +74,11 @@ class RouterComponent extends Component {
                         key="Discover" 
                         component={Discover} 
                         title="Discover"
+                    />
+                    <Scene 
+                        key="Events" 
+                        component={Events} 
+                        title="Events"
                         initial
                     />
                 </Scene>

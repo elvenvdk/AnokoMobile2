@@ -10,3 +10,5 @@ export * from './Header_Top';
 export * from './Header_Mid';
 export * from './Header_Small';
 export * from './MidMenu';
+export * from './EventsMidMenu';
+

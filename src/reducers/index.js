@@ -1,10 +1,14 @@
 import { combineReducers } from 'redux';
 import PartnerLibReducer from './PartnerLibReducer';
-import PartnerMainLibReducer from './PartnerMainLibReducer'
+import PartnerMainLibReducer from './PartnerMainLibReducer';
+import EventLibFeatReducer from './EventLibFeatReducer';
+import EventLibMainReducer from './EventLibMainReducer';
 
 export default combineReducers({
     partners: PartnerLibReducer,
-    partnersMain:PartnerMainLibReducer
+    partnersMain:PartnerMainLibReducer,
+    EventFeat: EventLibFeatReducer,
+    EventMain: EventLibMainReducer
 });
 
 
