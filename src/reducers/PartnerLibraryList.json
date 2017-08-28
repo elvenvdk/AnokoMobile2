@@ -1,0 +1,47 @@
+[
+    {"id": 0,
+    "title": "BKLYN Clay",
+    "description": "a modern ceramics studio for potters, artists, production clayworkers, and hobbyists, with the first community Gas Kiln in Brooklyn.",
+    "image": "/components/img/partners/BKNYNClay.jpg"
+    },
+    {"id": 1,
+    "title": "Ace Hotel",
+    "description": "Ace Hotel New York lives in a historic, turn-of-the-century building in Midtown Manhattan, invested with the spirit of its surroundings, the culture of the city and the ancient bones of the building.",
+    "image": "/components/img/partners/AceHotel.jpg" 
+    },
+    {"id": 2,
+    "title": "Distinguished Concerts International New York",
+    "description": "Distinguished Concerts International New York (DCINY) is the leading producer of dynamically charged musical excellence.",
+    "image": "/components/img/partners/DistinguishedConcerts International.jpg"
+    },
+    {"id": 3,
+    "title": "La Cigogne",
+    "description": "French restaurant created by Jeremy Andre and Damien Frey - Located in Carroll Gardens, Brooklyn",
+    "image": "/components/img/partners/lacigogne.jpg"
+    },
+    {"id": 4,
+    "title": "League of Kitchens",
+    "description": "An immersive culinary adventure in NYC where immigrants teach intimate cooking workshop in their homes.",
+    "image": "/components/img/partners/LeagueofKitchens.jpg"
+    },
+    {"id": 5,
+    "title": "LoLo's Seafood Shack",
+    "description": "LoLo's Seafood Shack offers Caribbean Street Eats like Conch Fritters alongside Classic New England favorites like Shrimp + Snow Crab Steampots with our signature sauces.",
+    "image": "/components/img/partners/LoLosSeafood.jpeg"
+    },
+    {"id": 6,
+    "title": "Pinot's Palette",
+    "description": "An unforgettable evening of friends, fun, beer, wine and painting in Brooklyn! We provide everything you need for a great night out.",
+    "image": "/components/img/partners/PinotsPalete1.jpg"
+    },
+    {"id": 7,
+    "title": "The Barrow Group",
+    "description": "The Barrow Group offers theatre patrons and performing arts students an artistic experience focused on simplicity, clarity, and spontaneity.",
+    "image": "/components/img/partners/TheBarrowGroup.jpeg"
+    },
+    {"id": 8,
+    "title": "VOLTA NY",
+    "description": "VOLTA NY is a contemporary art fair comprised of solo projects by leading and emerging international artists.",
+    "image": "/components/img/partners/VOLTAArtFair.png"
+    }
+]

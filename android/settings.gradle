@@ -1,0 +1,3 @@
+rootProject.name = 'AnokoMobile2'
+
+include ':app'
