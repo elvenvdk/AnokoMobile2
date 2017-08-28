@@ -1,6 +1,6 @@
-#AnokoMobile Development
+# AnokoMobile Development
 
-##Components
+## Components
 * Landing
     * Login or Learn More
 * LearnMore Screens 1 - 4
