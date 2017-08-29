@@ -1,9 +1,10 @@
 import React from 'react';
 import { 
     View, 
+    Text,
     ScrollView, 
     TouchableHighlight, 
-    Image 
+    ImageBackground
 } from 'react-native';
 import { ScreenSection } from '.';
 
@@ -12,24 +13,37 @@ const EventsMidMenu = () => {
     const { 
         midMenuStyle,
         midMenuButtonStyle,
+        midMenuTextStyle,
         overlayStyle
     } = styles;
     return (
         <ScreenSection>
         <View style={midMenuStyle}>
             <TouchableHighlight>
-                <View style={overlayStyle}>
-                    <Image style={midMenuButtonStyle} source={require('../img/discoverArtIcon.png')} />
+                <View>
+                    <ImageBackground style={midMenuButtonStyle} source={require('../img/eventsTodayIcon.png')}>
+                        <View style={overlayStyle}>
+                            <Text style={midMenuTextStyle}>Today</Text>
+                        </View>
+                    </ImageBackground>
                 </View>
             </TouchableHighlight>
             <TouchableHighlight>
                 <View>
-                    <Image style={midMenuButtonStyle} source={require('../img/discoverCulinaryIcon.png')} />
+                    <ImageBackground style={midMenuButtonStyle} source={require('../img/eventsTomorrowIcon.png')}>
+                        <View style={overlayStyle}>
+                            <Text style={midMenuTextStyle}>Tomomorrow</Text>
+                        </View>
+                    </ImageBackground>
                 </View>
             </TouchableHighlight>
             <TouchableHighlight>
                 <View>
-                    <Image style={midMenuButtonStyle} source={require('../img/discoverMusicIcon.png')} />
+                    <ImageBackground style={midMenuButtonStyle} source={require('../img/eventsTheweekIcon.png')}>
+                        <View style={overlayStyle}>
+                            <Text style={midMenuTextStyle}>The Week</Text>
+                        </View>
+                    </ImageBackground>
                 </View>
             </TouchableHighlight>
         </View>
@@ -50,20 +64,28 @@ const styles = {
     },
     midMenuButtonStyle: {
         borderWidth: 1,
-        borderColor: 'rgb(150, 150, 150)',
+        borderColor: 'rgb(150,150,150)',
         marginLeft: 4,
-        marginRight: 4
+        marginRight: 4,
+        width: 115,
+        height: 73.48
     },
     overlayStyle: {
-        // flex: 1,
-        // position: 'absolute',
+        flex: 1,
         left: 0,
         top: 0,
-        // opacity: 1,
-        backgroundColor: 'black',
-        // width: 375,
-        // height: 440
+        padding: 0,
+        backgroundColor: 'rgba(0,0,0,0.5)',
     },
+    midMenuTextStyle: {
+        flex: 1,
+        color: 'white',
+        textAlign: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'rgba(0,0,0,0)',
+        marginTop: 25,
+    }
 
 };
 

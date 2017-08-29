@@ -18,7 +18,9 @@
     * Reusable top, mid and small title-bars
     * Featured partners - horizontal scroll, full-width, touchable
     * Reusable mid-menu bar - horizontal scroll, touchable highlight
+        * Discover Detail - Same screen detail expantion
 * Events Screen
     * Reusable top, mid and small title-bars
     * Featured partners - horizontal scroll, full-width, touchable
     * Reusable mid-menu bar - horizontal scroll, touchable highlight
+        * Events Detail - Same screen detail expantion
