@@ -9,6 +9,7 @@ import SignUp from './components/SignUp';
 import Profile from './components/Profile';
 import Discover from './components/Discover';
 import Events from './components/Events';
+import Community from './components/Community';
 
 class RouterComponent extends Component {
     render() {
@@ -79,6 +80,11 @@ class RouterComponent extends Component {
                         key="Events" 
                         component={Events} 
                         title="Events"
+                    />
+                    <Scene 
+                        key="Community" 
+                        component={Community} 
+                        title="Community"
                         initial
                     />
                 </Scene>
